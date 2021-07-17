@@ -1,0 +1,20 @@
+.cell-list-item {
+  position: relative;
+}
+
+.action-bar-wrapper {
+  height: 30px;
+  width: 100%;
+  background-color: #37414b;
+}
+.nameh {
+  position: absolute;
+  top: 0;
+  right: 30;
+  opacity: 0.25;
+  transition: opacity 0.3s;
+}
+
+.nameh:hover {
+  opacity: 1;
+}
